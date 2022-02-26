@@ -1,0 +1,22 @@
+GET http://localhost:8080/professional
+
+
+# URL Params - none
+# Data Params - none
+# Headers - Content-Type: application/json
+
+# Success Response - Code: 200,
+# Professional JSON Response Object: 
+# {   professionalName: "FirstName LastName" (or may also contain DBA name),
+#     nameLink: {firstName: "FirstName",
+#                 url: "primaryUrl"},
+#     primaryDescription: "Web UI/UX Designer",
+#     linkTitleText: "Heading for Links Below",
+#     linkedInLink: {text: "Text for LinkedIn Link",
+#                    link: "url for Linked In"},
+#     githubLink: {text: "Text for Github Link",
+#                     link: "url for Github Link"},
+#     workDescription1: "First paragraph of professional summary description",
+#     workDescription2: "Second paragraph of professional summary description - if applicaable",
+#     base64Image: "img in base64 format"
+# }
